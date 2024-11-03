@@ -1,0 +1,29 @@
+﻿@{
+    ViewData["Title"] = "About";
+    var Pr = Model;
+}
+
+
+<h1>Contact</h1>
+
+<table class="table table-bordered">
+    <tr>
+        <th>Product Id</th>
+        <th>Product Name</th>
+        <th>Product Description</th>
+        <th>Product Price</th>
+    </tr>
+
+    <tr>
+        @*<td>@Model.Id</td>
+            <td>@Model.Name</td>
+            <td>@Model.Description</td>
+            <td>@Model.Price</td>*@
+
+        <td>@Pr.Id</td>
+        <td>@Pr.Name</td>
+        <td>@Pr.Description</td>
+        <td>@Pr.Price</td>
+
+    </tr>
+</table>

@@ -1,0 +1,31 @@
+﻿@{
+    ViewData["Title"] = "About";
+    var Pr = ViewBag.ptrs;
+
+}
+
+
+<h1>About</h1>
+
+<table class="table table-bordered">
+    <tr>
+        <th>Product Id</th>
+        <th>Product Name</th>
+        <th>Product Description</th>
+        <th>Product Price</th>
+    </tr>
+
+    <tr>
+        @*<td>@ViewBag.ptrs.Id</td>
+        <td>@ViewBag.ptrs.Name</td>
+        <td>@ViewBag.ptrs.Description</td>
+        <td>@ViewBag.ptrs.Price</td>*@
+
+
+        <td>@Pr.Id</td>
+        <td>@Pr.Name</td>
+        <td>@Pr.Description</td>
+        <td>@Pr.Price</td>
+
+    </tr>
+</table>
